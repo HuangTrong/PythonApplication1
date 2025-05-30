@@ -5,7 +5,7 @@ class MIPSCompiler:
     def __init__(self):
         self.label_table = {}
         self.temp_file = "temp_assembly.txt"
-        self.output_file = "machine_code.txt"
+        self.output_file = "trans_code.txt"
         self.opcodes = {
             # Opcode lệnh R
             'add' : '000000', 'addu' : '000000', 'sub' : '000000', 'subu' : '000000', 
